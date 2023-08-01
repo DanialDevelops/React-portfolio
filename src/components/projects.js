@@ -31,25 +31,25 @@ const style = {
 function Project({ selectedNavTitles }) {
   const projectData = [
     {
-      name: "Project 1",
+      name: "movie-review",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      image: "https://via.placeholder.com/150",
-      repo: "https://github.com/yourusername/portfolio",
+        "This is a simple movie review app that allows users to add movies and review them. It also allows users to view other users' reviews and ratings",
+      image: require("../images/spoiled.png"),
+      repo: "https://github.com/DanialDevelops/movie-review",
     },
     {
-      name: "Project 2",
+      name: "Flavor fusion",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      image: "https://via.placeholder.com/150",
-      repo: "https://github.com/yourusername/project2",
+        "Introducing Flavor Fusion, your go-to recipe website for satisfying your cravings and making the most of your ingredients! With our innovative search feature, you can find delicious recipes tailored to your specific cravings or based on the ingredients you have on hand. From savory to sweet, breakfast to dinner, we have a vast collection of recipes to suit every taste bud.",
+        image: require("../images/food.png"),
+      repo: "https://github.com/AndreBesner/group-project-1-flavour-fusion",
     },
     {
-      name: "Project 3",
+      name: "E-commerce-backend",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      image: "https://via.placeholder.com/150",
-      repo: "https://github.com/yourusername/project3",
+        "In this project I worked on making a program with SQL and Node.js to create a simple E commerce backend which also uses sequelize",
+      image: require("../images/Screenshot_8.png"),
+      repo: "https://github.com/DanialDevelops/E-commerce-backend",
     },
   ];
 
