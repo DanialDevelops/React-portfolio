@@ -1,4 +1,6 @@
 import React from 'react';
+import GitHubLogo from '../images/GitHub.png';
+import LinkedInLogo from '../images/LinkedIn.png';
 
 const style = {
     footer: {
@@ -41,11 +43,11 @@ const style = {
           Danial Choudhry &copy; {new Date().getFullYear()}
         </p>
         <div style={style.socialLinks}>
-          <a href="https://github.com/your-github-username" target="_blank" rel="noopener noreferrer">
-            <img src="./images/github_logo.svg" alt="GitHub" style={style.logo} />
+          <a href="https://github.com/DanialDevelops" target="_blank" rel="noopener noreferrer">
+            <img src={GitHubLogo} alt="GitHub" style={style.logo} />
           </a>
-          <a href="https://www.linkedin.com/in/your-linkedin-username" target="_blank" rel="noopener noreferrer">
-            <img src="./images/linkedin_logo.svg" alt="LinkedIn" style={style.logo} />
+          <a href="https://www.linkedin.com/in/danial-choudhry-45a598270/" target="_blank" rel="noopener noreferrer">
+            <img src={LinkedInLogo} alt="LinkedIn" style={style.logo} />
           </a>
         </div>
       </div>
