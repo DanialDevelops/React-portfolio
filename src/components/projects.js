@@ -51,6 +51,13 @@ function Project({ selectedNavTitles }) {
       image: require("../images/Screenshot_8.png"),
       repo: "https://github.com/DanialDevelops/E-commerce-backend",
     },
+    {
+      name: "Fit Folio",
+      description:
+        "In this project I worked on making a fitness tracking app using mern stack and graphql",
+      image: require("../images/fitfolio.png"),
+      repo: "https://github.com/DanialDevelops/Fit-Folio",
+    },
   ];
 
   return (
