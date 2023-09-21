@@ -1,7 +1,7 @@
 import React from 'react';
 
 const ResumeSection = () => {
-  const resumeLink = 'https://example.com/your-resume.pdf';
+  const resumeLink = 'https://docs.google.com/document/d/1s2CXKtmmCWyyo8APYaKUB0rXV3qI3Rm73CK8mhZL9Ic/edit?usp=sharing';
 
   const proficiencies = ['HTML', 'CSS', 'JavaScript', 'React', 'Node.js'];
 
